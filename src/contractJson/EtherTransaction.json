@@ -1,0 +1,30 @@
+{
+    "abi": [
+      {
+        "inputs": [
+          {
+            "internalType": "address payable",
+            "name": "_reciever",
+            "type": "address"
+          }
+        ],
+        "name": "sendEthUser",
+        "outputs": [],
+        "stateMutability": "payable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "accountBalance",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ]
+  }
