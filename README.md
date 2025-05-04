@@ -1,17 +1,56 @@
-<<<<<<< HEAD
-# React + Vite
+# 🔐 Ethereum Wallet DApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple and stylish React-based Ethereum wallet DApp (Decentralized Application) that allows users to connect their MetaMask wallet, view their account balance, and send ETH to any Ethereum address using a deployed smart contract on the blockchain.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ Connect to MetaMask wallet
+- 💰 Display connected wallet address and ETH balance
+- 📤 Send ETH to another wallet address
+- 🔒 Interact with a deployed smart contract using Ethers.js
+- 💡 Clean, responsive, and modern UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# ETH-transfer-application
-A simple decentralized wallet interface to send Ethereum using MetaMask. Connect your wallet, enter recipient details, and transfer ETH securely on the blockchain
->>>>>>> 6af1d8c9b96633387bad9279068ef9d1f475cd69
+---
+
+## 🖥️ Technologies Used
+
+- [React](https://reactjs.org/)
+- [Ethers.js](https://docs.ethers.io/)
+- [MetaMask](https://metamask.io/)
+- [Lucide Icons](https://lucide.dev/)
+- [CSS Variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+
+---
+
+## 🛠️ Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/eth-wallet-dapp.git
+   cd eth-wallet-dapp
+   
+   
+   
+📁 Project Structure
+
+eth-wallet/
+├── public/
+├── src/
+│   ├── App.js         # Main application component
+│   ├── App.css        # Application styles
+│   ├── contractJson/
+│   │   └── EtherTransaction.json # Compiled ABI from your smart contract
+├── package.json
+└── README.md
+
+
+📜 License:-
+        This project is open-source and available under the MIT License.
+
+🤝 Contributing
+        Feel free to fork this repo, make improvements, and create a pull request. Suggestions and feedback are always welcome!
+
+💬 Contact:-
+        Created by Gokulan V 

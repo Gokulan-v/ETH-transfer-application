@@ -9,10 +9,10 @@ import React from "react";
 function App () {
   const initialState = {
     windowEthereum: false,
-    contractAddress: "0x4DE7c612603B0E3918308530dcCfaA474c63B7c7",
+    contractAddress: "Enter your contract address",// do before running the program 
     walletAddress: null,
     contractAbi: ABI.abi,
-    provider: null,
+    provider: null, 
     signer: null,
     readContract: null,
     writeContract: null,
